@@ -1,0 +1,58 @@
+html, body{
+    background-color:#fafafa;
+}
+h1, h2, h3, h4, h5, [class*='display-']{
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+[class*='row'], [class*='container'], [class*='container-fluid'], [class*='col-']{
+    /*background-color:#fafafa;*/
+}
+.border{
+    border:solid 1px #ddd;
+}
+.card{
+    border-radius:0;
+    margin-bottom:20px;
+}
+.card img, input[type], button, .btn{
+    border-radius:0;
+}
+.card-body{
+    padding-bottom:0;
+}
+a, a:visited{
+    text-decoration:none;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.tab-content{
+    margin-top:20px;
+}
+a, a:hover, a:active, a:visited{
+    text-decoration:none;
+}
+a:active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: underline;
+    color: black;
+}
+.link_light a{
+    color: #999;
+}
+.link_light a:hover{
+    color: #ccc;
+}
+.backToTop {
+    z-index: 10;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    opacity: 0.25;
+}
+.backToTop:hover {
+    opacity: 0.5;
+}
